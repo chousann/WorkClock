@@ -14,7 +14,7 @@ echo -e "${green}x-ui安装使用的是原版"
 echo -e "${green}脚本只是让x-ui运行到Alpine"
 echo -e "${green}并自动设置开机自启"
 echo -e "${red}x-ui面板命令无效，请打开web管理操作"
-echo -e "${green}用户名密码admin，port9000"
+echo -e "${green}用户名密码admin，port23601"
 echo -e "${yellow}一路回车，啥也别说！"
 echo -e "${yellow}安全起见，安装两遍！"
 echo -e "----------------------------------------------"
@@ -70,8 +70,8 @@ bash <(curl -Ls $url )
 
 
 echo -e "${plain}x-ui安装完成"
-#/usr/local/x-ui/x-ui setting -username admin -password admin -port 9000
-echo -e "${green}用户名admin,密码admin,端口9000(访问注意映射)"
+#/usr/local/x-ui/x-ui setting -username admin -password admin -port 23601
+echo -e "${green}用户名admin,密码admin,端口23601(访问注意映射)"
 echo -e "${green}正在启动x-ui...."
 /etc/init.d/x-ui restart
 echo -e "${green}尝试重启sshd....如果有错误可以忽视"
