@@ -1,5 +1,7 @@
 #!/bin/sh
 # 安装依赖
+# https://blog.xserv.eu.org/2022/11/32m64mv2ray.html?m=1
+# https://v2raya.org/docs/prologue/installation/alpine/
 apk update && apk add --no-cache wget unzip
 # 下载 V2Ray
 wget https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip -O /tmp/v2ray.zip
