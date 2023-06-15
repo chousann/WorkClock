@@ -17,7 +17,7 @@ cat << EOF > /usr/local/share/v2ray/config.json
         "clients": [
           {
             "id": "af869fa1-2cff-4967-826c-106839608227", // 修改 UUID
-            "alterId": 64 // 修改 alterId
+            "alterId": 0 // 修改 alterId
           }
         ]
       },
