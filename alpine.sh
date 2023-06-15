@@ -22,7 +22,7 @@ cat << EOF > /usr/local/share/v2ray/config.json
         ]
       },
       "streamSettings": {
-        "network": "tcp" // 修改传输协议
+        "network": "ws", // 修改传输协议
         "wsSettings": {
           "path": "/img/23601",
           "headers": {}
