@@ -11,12 +11,12 @@ cat << EOF > /usr/local/share/v2ray/config.json
 {
   "inbounds": [
     {
-      "port": 12345, // 修改监听端口号
+      "port": 23601, // 修改监听端口号
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "00000000-0000-0000-0000-000000000000", // 修改 UUID
+            "id": "af869fa1-2cff-4967-826c-106839608227", // 修改 UUID
             "alterId": 64 // 修改 alterId
           }
         ]
