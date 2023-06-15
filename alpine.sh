@@ -35,4 +35,4 @@ cat << EOF > /usr/local/share/v2ray/config.json
 }
 EOF
 # 启动 V2Ray
-/usr/local/share/v2ray/v2ray -config /usr/local/share/v2ray/config.json
+/usr/local/share/v2ray/v2ray -config=/usr/local/share/v2ray/config.json
